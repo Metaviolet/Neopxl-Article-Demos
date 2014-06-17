@@ -3,13 +3,13 @@
 }
 html {
   font-size: 1em;
-  font-family: 'Alike';
+  font-family: 'Roboto';
   background-color: #262626;
   color: #d9d9d9;
 }
 body {
   margin: 0;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 img {
   max-width: 100%;
