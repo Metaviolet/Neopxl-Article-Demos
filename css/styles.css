@@ -11,9 +11,9 @@ body {
 margin: 0;
 font-family: 'Roboto', sans-serif;
 }
-.img_01 {
-background-color: #60C0D8;
-background-image: url("../images/hd_blush.png");
+img {
+max-width: 100%;
+height: auto;
 }
 h1,h2,h3,h4,h5,h6 {
 font-family: 'Roboto';
@@ -24,101 +24,129 @@ font-size: 3em;
 margin: 0.563em 0;
 }
 h2 {
-  font-size: 2.25em;
-  margin: 0.625em 0;
+font-size: 2.25em;
+margin: 0.625em 0;
 }
 h3 {
-  font-size: 1.5em;
-  margin: 1.313em 0;
+font-size: 1.5em;
+margin: 1.313em 0;
 }
 h4 {
-  font-size: 1.313em;
-  margin: 1.313em 0;
+font-size: 1.313em;
+margin: 1.313em 0;
 }
 h5 {
-  font-size: 1.125em;
-  margin: 1.313em 0;
+font-size: 1.125em;
+margin: 1.313em 0;
 }
 h6 {
-  font-size: 1em;
-  margin: 0.75em 0;
+font-size: 1em;
+margin: 0.75em 0;
 }
+
+#project_info {
+ font-size:.5em;
+ 
+}
+#project_info a {
+color: #1498A3;
+text-decoration: none;
+}
+
+
+#project_info ul {
+list-style-type: none;
+position: fixed;
+width: 415px;
+right: -5px;
+top: 4px;
+}
+
+#project_info ul a{
+color: #11C3D3;
+text-decoration: none;
+float: left;
+padding: 10px;
+background: white;
+border-right: 1px solid #565656;
+}
+
 .smallscreen {
-  display: none;
+display: none;
 }
 .contenido {
-  font-size: 1.875rem;
-  color: #262626;
-  background-size: 49% auto;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  text-align: justify;
+font-size: 1.875rem;
+color: #262626;
+background-size: 49% auto;
+background-attachment: fixed;
+background-repeat: no-repeat;
+text-align: justify;
 }
 .separador {
-  font-size: 1.875rem;
-  padding:0;
-  text-align: center;
+font-size: 1.875rem;
+padding:0;
+text-align: center;
 }
 
 .separador_small {
-  font-size: 1.5em;
-  padding: 0rem 1em;
-  text-align: left;
+font-size: 1.5em;
+padding: 0rem 1em;
+text-align: left;
 }
 
 .right {
-  padding: 1.618em 6.472em 3.236em 50%;
-  background-position: 0 50%;
+padding: 1.618em 6.472em 3.236em 50%;
+background-position: 0 50%;
 }
 .left {
-  padding: 1.618em 50% 3.236em 6.472em;
-  background-position: 100% 50%;
+padding: 1.618em 50% 3.236em 6.472em;
+background-position: 100% 50%;
 }
 .img_01 {
-  background-color: #60C0D8;
-  background-image: url("../images/hd_blush.png");
+background-color: #60C0D8;
+background-image: url("../images/hd_blush.png");
 }
 .img_02 {
-  background-color: #e8697b;
-  background-image: url("../images/girl.png");
+background-color: #e8697b;
+background-image: url("../images/girl.png");
 }
 .img_03 {
-  background-color: #14b29a;
-  background-image: url("../images/makeup.png");
+background-color: #14b29a;
+background-image: url("../images/makeup.png");
 }
 .img_04 {
-  background-color: #F1A080;
-  background-image: url("../images/model.png");
+background-color: #F1A080;
+background-image: url("../images/model.png");
 }
 @media (max-width: 106.25rem) {
-  .wrapper,
-  .separador {
-    font-size: 1.6875rem;
+ .wrapper,
+ .separador {
+  font-size: 1.6875rem;
   }
 }
 @media (max-width: 93.75rem) {
-  .contenido,
+ .contenido,
   .separador {
-    font-size: 1.5rem;
+   font-size: 1.5rem;
   }
-  .right {
-    padding: 1.618em 4.854em 1.618em 50%;
-  }
-  .left {
-    padding: 1.618em 50% 1.618em 4.854em;
-  }
+ .right {
+   padding: 1.618em 4.854em 1.618em 50%;
+ }
+ .left {
+   padding: 1.618em 50% 1.618em 4.854em;
+ }
 }
 @media (max-width: 81.25rem) {
-  .contenido,
+ .contenido,
   .separador {
-    font-size: 1.3125rem;
-  }
+   font-size: 1.3125rem;
+ }
   .right {
-    padding: 1.618em 3.236em 1.618em 45%;
-    background-size: 44% auto;
-    background-position: 0 55%;
-  }
-  .left {
+   padding: 1.618em 3.236em 1.618em 45%;
+   background-size: 44% auto;
+   background-position: 0 55%;
+ }
+ .left {
     padding: 1.618em 45% 1.618em 3.236em;
     background-size: 44% auto;
     background-position: 100% 55%;
@@ -127,42 +155,67 @@ h6 {
 @media (max-width: 68.75rem) {
   .contenido,
   .separador {
-    font-size: 1.125rem;
-  }
+   font-size: 1.125rem;
+ }
   .right {
     padding: 1.618em 3.236em 1.618em 40%;
     background-size: 39% auto;
     background-position: 0 60%;
-  }
-  .left {
+ }
+ .left {
     padding: 1.618em 40% 1.618em 3.236em;
     background-size: 39% auto;
     background-position: 100% 60%;
-  }
+ }
 }
 @media (max-width: 50rem) {
   .smallscreen {
-    display: block;
-  }
-  .right {
+  display: block;
+ }
+ .right {
     padding: 1.618em 3.236em;
     background-image: none;
-  }
+}
   .left {
     padding: 1.618em 3.236em;
     background-image: none;
-  }
+   }
+   
+
+  #project_info ul {
+  list-style-type: none;
+  position: fixed;
+  width: auto;
+  right: -5px;
+  top: 16px;
+}
+
+  #project_info ul a {
+  color: #11C3D3;
+  text-decoration: none;
+  float: none;
+  padding: 10px;
+  background: white;
+  border-bottom: 1px solid #565656;
+  display: block;
+}
+
 }
 @media (max-width: 31.25rem) {
   .right {
-    padding: 1.618em 1.618em;
+   padding: 1.618em 1.618em;
   }
   .left {
-    padding: 1.618em 1.618em;
+  padding: 1.618em 1.618em;
+  }
+  
+  h1 {
+  font-size: 5em;
+  margin: 0.563em 0;
   }
 }
 @media (max-width: 12rem) {
   html {
-    min-width: 12rem;
-  }
+ min-width: 12rem;
+ }
 }
