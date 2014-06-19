@@ -204,9 +204,14 @@ background-image: url("../images/model.png");
 @media (max-width: 31.25rem) {
   .right {
    padding: 1.618em 1.618em;
- }
+  }
   .left {
   padding: 1.618em 1.618em;
+  }
+  
+  h1 {
+  font-size: 5em;
+  margin: 0.563em 0;
   }
 }
 @media (max-width: 12rem) {
