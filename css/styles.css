@@ -55,6 +55,11 @@ text-decoration: none;
 
 #project_info ul {
 list-style-type: none;
+position: fixed;
+width: 34%;
+right: 0;
+top: 4px;
+
 }
 
 #project_info ul a{
