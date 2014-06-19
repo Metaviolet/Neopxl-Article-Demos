@@ -43,6 +43,11 @@ h6 {
 font-size: 1em;
 margin: 0.75em 0;
 }
+
+#project_info {
+ font-size:.5em;
+ 
+}
 .smallscreen {
 display: none;
 }
