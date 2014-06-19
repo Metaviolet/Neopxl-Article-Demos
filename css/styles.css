@@ -48,6 +48,24 @@ margin: 0.75em 0;
  font-size:.5em;
  
 }
+#project_info a {
+color: #1498A3;
+text-decoration: none;
+}
+
+#project_info ul {
+list-style-type: none;
+}
+
+#project_info ul a{
+color: #11C3D3;
+text-decoration: none;
+float: left;
+padding: 10px;
+background: white;
+border-right: 1px solid #565656;
+}
+
 .smallscreen {
 display: none;
 }
