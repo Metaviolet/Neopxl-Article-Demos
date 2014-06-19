@@ -44,32 +44,6 @@ font-size: 1em;
 margin: 0.75em 0;
 }
 
-#project_info {
- font-size:.5em;
- 
-}
-#project_info a {
-color: #1498A3;
-text-decoration: none;
-}
-
-
-#project_info ul {
-list-style-type: none;
-position: fixed;
-width: 415px;
-right: -5px;
-top: 4px;
-}
-
-#project_info ul a{
-color: #11C3D3;
-text-decoration: none;
-float: left;
-padding: 10px;
-background: white;
-border-right: 1px solid #565656;
-}
 
 .smallscreen {
 display: none;
