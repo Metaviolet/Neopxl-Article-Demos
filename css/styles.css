@@ -155,25 +155,6 @@ background-image: url("../images/model.png");
     background-image: none;
    }
    
-
-  #project_info ul {
-  list-style-type: none;
-  position: fixed;
-  width: auto;
-  right: -5px;
-  top: 16px;
-}
-
-  #project_info ul a {
-  color: #11C3D3;
-  text-decoration: none;
-  float: none;
-  padding: 10px;
-  background: white;
-  border-bottom: 1px solid #565656;
-  display: block;
-}
-
 }
 @media (max-width: 31.25rem) {
   .right {
